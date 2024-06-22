@@ -36,7 +36,7 @@ class MainWindow(QMainWindow):
 
     def initUI(self):
         self.setWindowTitle('EEG Monitoring by Neurazum')
-        self.setWindowIcon(QIcon('C:/Users/eyupi/PycharmProjects/Neurazum/NeurAI/Assets/neurazumicon.ico'))
+        self.setWindowIcon(QIcon('/neurazumicon.ico'))
 
         self.central_widget = QWidget()
         self.setCentralWidget(self.central_widget)
